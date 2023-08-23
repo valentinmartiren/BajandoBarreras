@@ -84,7 +84,6 @@ h2, h3, h4, h5, p, a{
 .botonForm{
     background-color: #f0e6ef;
     border-radius: 2rem;
-    width: 5vw;
 }
 
 .botonForm:hover{
@@ -103,4 +102,15 @@ h2, h3, h4, h5, p, a{
     color: #f0e6ef;
     font-family: 'Philosopher', sans-serif;
     font-size: 2rem;
+}
+
+/* MEDIAQUERYS */
+
+@media screen and (max-width:768px){
+    .main_cards{
+        margin-bottom: 10px;
+    }
+    .img_barras{
+        margin-bottom: 30px;
+    }
 }
