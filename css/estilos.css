@@ -1,0 +1,106 @@
+/* GENERALES */
+
+h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 5rem;
+}
+
+h2, h3, h4, h5, p, a{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.15rem;
+}
+
+/* HEADER */
+
+.header__nav{
+    background-color: #9c89b8;
+    opacity: 0.6;
+    background: radial-gradient(circle, transparent 20%, #9c89b8 20%, #9c89b8 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #9c89b8 20%, #9c89b8 80%, transparent 80%, transparent) 17.5px 17.5px, linear-gradient(#f0a6ca 1.4000000000000001px, transparent 1.4000000000000001px) 0 -0.7000000000000001px, linear-gradient(90deg, #f0a6ca 1.4000000000000001px, #9c89b8 1.4000000000000001px) -0.7000000000000001px 0;
+    background-size: 35px 35px, 35px 35px, 17.5px 17.5px, 17.5px 17.5px;
+}
+
+.header__nav__a{
+    color: #f0e6ef;
+}
+
+.header__nav__li{
+    background-color: #9c89b8;
+    border-radius: 2rem;
+}
+
+.header__nav__li:hover{
+    background-color: #f0e6ef;
+    transform: rotate(45);
+    transition: 2s;
+}
+
+/* MAIN - INDEX */
+
+.main__titulos{
+    color: #9c89b8;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
+}
+
+.mainIndex{
+    height: 85vh;
+}
+
+.main__img{
+    width: 100vw;
+}
+
+.botonLink{
+    background-color: #f0e6ef;
+    border-radius: 2rem;
+}
+
+.botonLink:hover{
+    background-color: #efc3e6;
+    transition: 1s;
+}
+
+.conoceme{
+    background-color: #b8bedd;
+    opacity: 0.9; 
+    background: repeating-linear-gradient( -45deg, #9c89b8, #9c89b8 19px, #b8bedd 19px, #b8bedd 95px );
+
+}
+
+.conoceme__titulos{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
+}
+
+
+.conoceme__img{
+    border-radius: 5rem;
+}
+
+.contacto{
+    height: 85vh;
+}
+
+.botonForm{
+    background-color: #f0e6ef;
+    border-radius: 2rem;
+    width: 5vw;
+}
+
+.botonForm:hover{
+    background-color: #efc3e6;
+    transition: 1s;
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #9c89b8;
+}
+
+.footer__h3{
+    color: #f0e6ef;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2rem;
+}
