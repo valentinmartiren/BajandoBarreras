@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naty Mendes | Espacio holísitco</title>
     <!--ENLACES-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <!-- ENLACE WHATSAPP -->
@@ -84,8 +85,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Sesiones de barras</h5>
-                            <p class="card-text">Brindamos sesiones de barra en distintos lugares de CABA y GBA.</p>
-                            <a href="#" class="btn d-flex justify-content-center botonLink">Conocé más</a>
+                            <p class="card-text">Brindamos sesiones de barra en distintos lugares de <b>CABA y GBA.</b></p>
+                            <a href="pages/clases.html" class="btn d-flex justify-content-center botonLink">Conocé más</a>
                         </div>
                     </div>
                 </div>
@@ -93,9 +94,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Flores de Bach</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            <p class="card-text">Cada flor tiene una <b>vibración y propiedades</b> únicas que pueden ayudarnos a sanar.
                             </p>
-                            <a href="#" class="btn d-flex justify-content-center botonLink">Conocé más</a>
+                            <a href="pages/clases.html" class="btn d-flex justify-content-center botonLink">Conocé más</a>
                         </div>
                     </div>
                 </div>
@@ -103,9 +104,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Clases de barras</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            <p class="card-text">Con <b>certificación internacional</b> y posibilidad laboral al instante.
                             </p>
-                            <a href="#" class="btn d-flex justify-content-center botonLink">Conocé más</a>
+                            <a href="pages/clases.html" class="btn d-flex justify-content-center botonLink">Conocé más</a>
                         </div>
                     </div>
                 </div>
@@ -130,9 +131,10 @@
                         Alivio del estrés | Un espacio para reponer a tu cuerpo | Aumento en la energía y la creatividad
                     </p>
                 </div>
+                <div id="conoceme"></div>  <!--SE COLOCA PORQUE EN LA MOBILE VERSION LO TAPA EL NAV SINO-->
             </div>
         </div>
-        <div id="conoceme" class="container-fluid py-5 conoceme">
+        <div class="container-fluid py-5 conoceme">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center pb-3">
                     <h2 class="conoceme__titulos">Conoceme</h2>
@@ -146,10 +148,11 @@
                     <h3 class="conoceme__titulos">Naty Mendes</h3>
                     <p class="conoceme__p">Mi nombre es Natalia. A lo largo de los años, he estudiado y practicado diversas disciplinas para ayudarme a mi misma y a los que me rodean a encontrar un equilibrio emocional y espiritual en sus vidas. Mi enfoque principal está puesto en los beneficios de Barras de Access aunque también ejerzo terapia floral, donde utilizo esencias naturales de flores para facilitar la sanación emocional, ayudarnos a superar desafíos emocionales, liberar traumas pasados y encontrar claridad donde no la vemos. Mi objetivo es crear un espacio seguro y acogedor donde puedas explorar tus emociones, desafíos y aspiraciones. A través de Access, Reiki, la terapia floral y/o la exploración de las energías, espero ayudarte a alcanzar un mayor bienestar emocional y a descubrir su autenticidad </p>
                 </div>
+                <div id="contacto"></div>  <!--SE COLOCA PORQUE EN LA MOBILE VERSION LO TAPA EL NAV SINO-->
             </div>
         </div>
         <div class="container-fluid d-flex flex-column align-items-center contacto">
-            <div id="contacto" class="container w-75 py-5">
+            <div class="container w-75 py-5">
                 <div class="row">
                     <div class="col-12 pb-4">
                         <h2 class="main__titulos">Contacto</h2>
@@ -162,7 +165,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Número de teléfono</label>
-                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                <input type="number" class="form-control" id="exampleFormControlInput1" required placeholder="">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
@@ -172,7 +175,7 @@
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Dejáme tu consulta específica
                                     aquí abajo</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" required rows="4"></textarea>
                             </div>
                             <button class="btn m-auto d-flex justify-content-center botonForm" type="submit">Enviar</button>
                         </form>
